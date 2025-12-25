@@ -2,7 +2,7 @@
 
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const apiKey = "AIzaSyCqLzsWqGTBNYN11mqJ2QXaq57jOijUBQY";
+const apiKey = "";
 const genAI = new GoogleGenerativeAI(apiKey);
 
 export async function generateItinerary(formData: any) {
@@ -77,3 +77,4 @@ async function listModels() {
     // But we gets 404, implying we can't see it. 
   } catch (e) { }
 }
+
